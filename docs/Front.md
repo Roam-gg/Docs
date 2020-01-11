@@ -8,8 +8,6 @@ Roam is intended to be the match-maker for several services:
 
 - Content/News based feeds
 
-- Microblogging
-
 ## Analysis
 
 Each of the services have their own features that they need these are explored in the documents:
@@ -19,8 +17,6 @@ Each of the services have their own features that they need these are explored i
 - [analysis-DM.md](analysis-DM.md)
 
 - [analysis-BO.md](analysis-BO.md)
-
-- [analysis-MB.md](analysis-MB.md)
 
 The analysis for the main site can be found at [analysis-FR.md](analysis-FR.md).
 
@@ -33,7 +29,5 @@ The design for each service is located at:
 - [design-DM.md](design-DM.md)
 
 - [design-BO.md](design-BO.md)
-
-- [design-MB.md](design-MB.md)
 
 The design for the main site can be found at [design-FR.md](design-FR.md).
