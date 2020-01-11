@@ -12,22 +12,22 @@ Roam is intended to be the match-maker for several services:
 
 Each of the services have their own features that they need these are explored in the documents:
 
-- [analysis-SM.md](analysis-SM.md)
+- [analysis-Terra.md](analysis-Terra.md)
 
-- [analysis-DM.md](analysis-DM.md)
+- [analysis-Mercury.md](analysis-Mercury.md)
 
-- [analysis-BO.md](analysis-BO.md)
+- [analysis-Venus.md](analysis-Venus.md)
 
-The analysis for the main site can be found at [analysis-FR.md](analysis-FR.md).
+The analysis for the main site can be found at [analysis-Roam.md](analysis-Roam.md).
 
 ## Design
 
 The design for each service is located at:
 
-- [design-SM.md](design-SM.md)
+- [design-Terra.md](design-Terra.md)
 
-- [design-DM.md](design-DM.md)
+- [design-Mercury.md](design-Mercury.md)
 
-- [design-BO.md](design-BO.md)
+- [design-Venus.md](design-Venus.md)
 
-The design for the main site can be found at [design-FR.md](design-FR.md).
+The design for the main site can be found at [design-Roam.md](design-Roam.md).
