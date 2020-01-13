@@ -50,11 +50,11 @@ Roles allow owners to attach a specific set of permissions to a user. Roles can 
 
 #### Channel Overrides
 
-Permissions are set serverwide but can be overridden in a channel to grant or remove permissions from users only in that channel. Permissions for each role can be overridden within channels.
+Permissions are set server-wide but can be overridden in a channel to grant or remove permissions from users only in that channel. Permissions for each role can be overridden within channels.
 
 ## Threads
 
-Sometime in a conversation users may want to respond to a specific message without clogging up the main channel. Mercury provides a way to do this through threads. Threads allow users to reply to a message in its on own dedicated channel with the option of also sending the message in the main channel. Threads can be joined by users, only users who have joined the thread will recieve notifications from it.
+Sometime in a conversation users may want to respond to a specific message without clogging up the main channel. Mercury provides a way to do this through threads. Threads allow users to reply to a message in its on own dedicated channel with the option of also sending the message in the main channel. Threads can be joined by users, only users who have joined the thread will receive notifications from it.
 
 ## Integration
 
