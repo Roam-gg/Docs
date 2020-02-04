@@ -16,6 +16,7 @@ Roam as a service is built around connections, for this reason instead of using 
 | name | The name of this Theater (is unique) | string |
 | channels | The [channels](#base-channel) of this Theater | List of [Channels](#base-channel) |
 | roles | The [roles](#roles) of this Theater | List of [Roles](#roles) |
+| flairs | The flairs that this server has | List of [Flairs](#flairs) |
 
 ### Base Channel
 
@@ -38,6 +39,7 @@ These are fields common to all channels
 | Field | Description | Type |
 |-------|-------------|------|
 | messages | The posts for this channel | List of [Feed messages](#feed-message) |
+| allowed_flairs | The flairs that can be used in this channel | ?List of [Flairs](#flairs) |
 
 ##### Multi Feed Channel
 
@@ -50,6 +52,7 @@ These are fields common to all channels
 | Field | Description | Type |
 |-------|-------------|------|
 | messages | The articles for this channel | List of [News messages](#news-message) |
+| allowed_flairs | The flairs that can be used in this channel | ?List of [Flairs](#flairs) |
 
 #### Thread Channel
 
@@ -140,3 +143,12 @@ Only Egos are accessible through the API except for the requesting user. They ma
 | colour | The colour of the role | integer |
 | permissions | The permissions for this user | integer |
 | mentionable | Whether this role can be mentoined in messages | boolean |
+
+## Flairs
+
+Each Theater can have its ovn flairs that are used to categorise posts in [feeds](#theater-feed-channel) and [news](#theater-news-channel) channels. Each [feed](#theater-feed-channel) and [news](#theater-news-channel) channel also has a list of allowed flairs for the [channel](#base-channel), [messages](#message) that have flairs not in this list are rejected by the server. The list can also be null, when it is all flairs are allowed.
+
+| Flairs | Description | Type |
+|--------|-------------|------|
+| name | The name of this flair | string |
+| colour | The colour of the flair | integer |
