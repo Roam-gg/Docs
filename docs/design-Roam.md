@@ -14,10 +14,10 @@ Roam as a service is built around connections, for this reason instead of using 
 |-------|-------------|------|
 | id | The unique id of this Theater | snowflake |
 | name | The name of this Theater (is unique) | string |
-| channels | The [channels](#channel) of this Theater | List of [Channels](#channel-api) |
-| roles | The [roles](#role) of this Theater | List of [Roles](#role-api) |
+| channels | The [channels](#base-channel) of this Theater | List of [Channels](#base-channel) |
+| roles | The [roles](#roles) of this Theater | List of [Roles](#roles) |
 
-### Base Channel {#channel-api}
+### Base Channel
 
 These are fields common to all channels
 
@@ -25,6 +25,7 @@ These are fields common to all channels
 |-------|-------------|------|
 | id | The unique id of this Channel | snowflake |
 | name | The name of this channel | string |
+| overrides | The permission overrides | Dictionary with [role ids](#roles) for keys and integers for values |
 
 #### Theater Text Channel
 
@@ -116,7 +117,7 @@ Bot      Person
 |-------|-------------|------|
 | id | this user's unique id | snowflake |
 | email? | the __verified__ email address tied to this user | string |
-| egos | The egos this user has | List of [egos](#egos) |
+| egos | The [egos](#egos) this user has | List of [egos](#egos) |
 
 #### Egos
 
@@ -130,5 +131,12 @@ Only Egos are accessible through the API except for the requesting user. They ma
 | name | the username for this ego | string (max length: 32 characters) |
 | discriminator | the discriminator for this ego | int (min: 0, max: 9,999) |
 
+### Roles
 
-### TODO: Add Roles
+| Field | Description | Type |
+|-------|-------------|------|
+| id | The id of the role | snowflake |
+| name | The name of the role | string (max length: 32 characters) |
+| colour | The colour of the role | integer |
+| permissions | The permissions for this user | integer |
+| mentionable | Whether this role can be mentoined in messages | boolean |
