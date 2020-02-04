@@ -1,12 +1,10 @@
 # Roam
 
-## Structs
-
 ## API
 
 Roam as a service is built around connections, for this reason instead of using a REST API the roam API will use GraphQL.
 
-### Theater
+## Theater
 
 [Boards from Venus](analysis-Venus.md#Boards) and [Servers from Mercury](analysis-Mercury.md#Servers) will be merged into one object called a Theater. Theaters will have Channels that serve as both [feeds](analysis-Venus.md#Feeds) and [channels](analysis-Mercury.md#Channels).
 
@@ -14,13 +12,13 @@ Roam as a service is built around connections, for this reason instead of using 
 |-------|-------------|------|
 | id | The unique id of this Theater | snowflake |
 | name | The name of this Theater (is unique) | string |
-| channels | The [channels](#base-channel) of this Theater | List of [Channels](#base-channel) |
+| channels | The [channels](#channel) of this Theater | List of [Channels](#channel) |
 | roles | The [roles](#roles) of this Theater | List of [Roles](#roles) |
 | flairs | The flairs that this server has | List of [Flairs](#flairs) |
 
-### Base Channel
+## Channel
 
-These are fields common to all channels
+These are fields common to all channels, other channel types are [Feeds](design-Venus.md#feed), [Multi-Feeds](design-Venus.md#multi-feed), [Text Channels](design-Mercury.md#text-channel), [News Channels](design-Mercury.md#news-channel), and [Threads](design-Mercury.md#thread).
 
 | Field | Description | Type |
 |-------|-------------|------|
@@ -28,79 +26,15 @@ These are fields common to all channels
 | name | The name of this channel | string |
 | overrides | The permission overrides | Dictionary with [role ids](#roles) for keys and integers for values |
 
-#### Theater Text Channel
+## Message
 
-| Field | Description | Type |
-|-------|-------------|------|
-| messages | The messages for this channel | List of [Text messages](#text-message) |
-
-#### Theater Feed Channel
-
-| Field | Description | Type |
-|-------|-------------|------|
-| messages | The posts for this channel | List of [Feed messages](#feed-message) |
-| allowed_flairs | The flairs that can be used in this channel | ?List of [Flairs](#flairs) |
-
-##### Multi Feed Channel
-
-| Field | Description | Type |
-|-------|-------------|------|
-| sources | The sources for this channel  | List of [Feed Channels](#theater-feed-channel)
-
-#### Theater News Channel
-
-| Field | Description | Type |
-|-------|-------------|------|
-| messages | The articles for this channel | List of [News messages](#news-message) |
-| allowed_flairs | The flairs that can be used in this channel | ?List of [Flairs](#flairs) |
-
-#### Thread Channel
-
-| Field | Description | Type |
-|-------|-------------|------|
-| messages | The messages for this thread | List of [Text messages](#text-message)
-
-### Message
-
-#### Base Message
-
-All message type inherit these fields
+All message type inherit these fields, other message types are: [Posts](design-Venus.md#post), [Comments](design-Venus.md#comment), [Text Messages](design-Mercury.md#text-message), and [News Articles](design-Mercury.md#news-article)
 
 | Field | Description | Type |
 |-------|-------------|------|
 | id | The id of this message | snowflake |
 
-#### Text Message
-
-| Field | Description | Type |
-|-------|-------------|------|
-| content | The text of the message | string (max length: 5,000) |
-
-#### Feed Message
-
-| Field | Description | Type |
-|-------|-------------|------|
-| title | The title of the post | string (max length: 100) |
-| content | The content of the post | List of [feed message content](#feed-message-content) (max size: 40,000 characters OR 50MB whichever is hit first) |
-
-##### Feed Message Content
-
-Either:
-
-###### Image content
-
-| Field | Description | Type |
-|-------|-------------|------|
-| source | The source for the image | url |
-| content | The raw btyes for the image | png/gif/jpg/mp4 |
-
-###### Text content
-
-| Field | Description | Type |
-|-------|-------------|------|
-| content | The content of the text section | string |
-
-### Users
+## Users
 
 There are three different types of "user" on the platform: humans, bots, and organisations. Organisations cannot use Venus or Mercury so they are treated differently. We shall categorise these types of users by what they can use.
 
@@ -122,7 +56,7 @@ Bot      Person
 | email? | the __verified__ email address tied to this user | string |
 | egos | The [egos](#egos) this user has | List of [egos](#egos) |
 
-#### Egos
+### Egos
 
 Roam wants to allow anonimity where desired, to this end roam will have Egos. Egos are a way of a user having multiple "accounts" that they can switch between. To other users these Egos appear completely disconnected so if looks as if there is two different users.
 
@@ -134,7 +68,10 @@ Only Egos are accessible through the API except for the requesting user. They ma
 | name | the username for this ego | string (max length: 32 characters) |
 | discriminator | the discriminator for this ego | int (min: 0, max: 9,999) |
 
-### Roles
+## Roles
+
+Each Theater can have roles that allow it to restrict what users can do on their services:
+There are three special roles: `@everyone`, `@members`, and `@public`. These roles cannot be removed. Everyone represents all users on the platform, members represents all users that have joined a server. And public represents all the users that can view a server but have not joined.
 
 | Field | Description | Type |
 |-------|-------------|------|
@@ -146,7 +83,7 @@ Only Egos are accessible through the API except for the requesting user. They ma
 
 ## Flairs
 
-Each Theater can have its ovn flairs that are used to categorise posts in [feeds](#theater-feed-channel) and [news](#theater-news-channel) channels. Each [feed](#theater-feed-channel) and [news](#theater-news-channel) channel also has a list of allowed flairs for the [channel](#base-channel), [messages](#message) that have flairs not in this list are rejected by the server. The list can also be null, when it is all flairs are allowed.
+Each Theater can have its ovn flairs that are used to categorise posts in [feeds](design-Venus.md#feed) and [news](design-Mercury.md#news-channel) channels. Each [feed](design-Venus.md#feed) and [news](design-Mercury.md#news-channel) channel also has a list of allowed flairs for the [channel](#channel), [messages](#message) that have flairs not in this list are rejected by the server. The list can also be null, when it is all flairs are allowed.
 
 | Flairs | Description | Type |
 |--------|-------------|------|
