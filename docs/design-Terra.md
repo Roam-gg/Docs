@@ -22,10 +22,6 @@
 | location | The location attached to this status update | Geographic Coords |
 | background | The background used for this status update | url |
 
-## Activity
-
-TODO: Add activity
-
 ## Emotion
 
 | Emotion | Emoji |
