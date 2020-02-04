@@ -19,3 +19,11 @@ Users will also be able to set default accounts for individual services.
 ### Bots
 
 All services within Roam will support bot accounts. These accounts will be marked clearly so they cannot inpersonate real people.
+
+## Leveling
+
+When you create posts in either Venus or Terra other users will be able to vote on them. All votes for a user will be accumulated and displayed on their account. Earning these will also allow users to increase in rank, as a user increases in rank they will gain access to special borders for their profile pictures, themes for Roam and other such rewards.
+
+### Theater Levels
+
+Theaters will also be able to to accrue levels through the cumulative voting of its entire user base. Theaters will unlock similar rewards as users as they increase in levels.
