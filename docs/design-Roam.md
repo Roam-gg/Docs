@@ -90,6 +90,20 @@ Only Egos are accessible through the API except for the requesting user. They ma
 | name | the username for this ego | string (max length: 32 characters) |
 | discriminator | the discriminator for this ego | int (min: 0, max: 9,999) |
 
+### User Flags
+
+| Flag | Value (2<sup>x</sup>) |
+|------|-----------------------|
+| None | 0 |
+| Emporers | 1 |
+| Roam Employee | 2 |
+| Roam Partner | 3 |
+| System | 4 |
+| Hosts | 5 |
+| Top Posts | 6 |
+| Bottom Post | 7 |
+| Bug Collector | 8 |
+
 ## Roles
 
 Each Theater can have roles that allow it to restrict what users can do on their services:
@@ -154,7 +168,7 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | SCHEDULE_EVENT | 35 | Allows a user to schedule an event | T(Groups) |
 | START_POLL | 36 | Allows a user to begin a poll | M, V, T |
 
-### Attachment
+## Attachment
 
 | Field | Description | Type |
 |-------|-------------|------|
@@ -165,4 +179,3 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | proxy_url | Proxied url of attachment | string |
 | height | Height of attachment | ?integer |
 | width | Width of attachment | ?integer |
-
