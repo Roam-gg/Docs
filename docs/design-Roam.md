@@ -55,14 +55,17 @@ All message type inherit these fields, other message types are: [Posts](design-V
 | Field | Description | Type |
 |-------|-------------|------|
 | id | The id of this message | snowflake |
+| author | The [ego](#egos) that created this message (null if ego/user was deleted) | ?[Ego](#egos) |
 
 ## Users
 
 There are three different types of "user" on the platform: humans, bots, and organisations. Organisations cannot use Venus or Mercury so they are treated differently. We shall categorise these types of users by what they can use.
 
-- Clients can access and use Terra's features
-
-- Users can access and use Venus & Mercury's features
+- Clients are the base type, they can access Roam's Terra service
+  - Organisations have a page on Terra, they can be DMed by other users but cannot send messages unsolicited. They are marked clearly to other users as brands.
+- Users can also use Roam's Venus and Mercury Services
+  - Persons are normal accounts
+  - Bots are clearly marked to make other users aware that they are automated, they do not have profiles and instead have information pages.
 
 ```
          Client
@@ -72,13 +75,39 @@ There are three different types of "user" on the platform: humans, bots, and org
 Bot      Person
 ```
 
+The following objects are not publicly accessible and are only documented for reference:
+
+### Client
+
 | Field | Description | Type |
 |-------|-------------|------|
-| id | this user's unique id | snowflake |
-| email? | the __verified__ email address tied to this user | string |
-| egos | The [egos](#egos) this user has | List of [egos](#egos) |
+| id | The unique id for this client | snowflake |
 
-### Egos
+### Organisation
+
+| Field | Description | Type |
+|-------|-------------|------|
+| name | The name of the organisation | string |
+| verified | whether this organisation is verified | boolean |
+
+### Person
+
+| Field | Description | Type |
+|-------|-------------|------|
+| email | The __verified__ email address tied to this user | ?string |
+| egos | The [egos](#egos) this user has | List of [egos](#egos) |
+| verified | Whether this user is verified | boolean |
+| displayed_verification | The [ego](#egos) the verification status (if present) is displayed | [Ego](#egos) |
+| displayed_flags | Which [ego](#egos) to display flags on (if applicable) | [Ego](#egos) |
+| flags | The flags that this user has | integer |
+
+### Bot
+
+| Field | Description | Type |
+|-------|-------------|------|
+| ego | The [ego](#ego) this bot uses | [Ego](#ego) |
+
+## Egos
 
 Roam wants to allow anonimity where desired, to this end roam will have Egos. Egos are a way of a user having multiple "accounts" that they can switch between. To other users these Egos appear completely disconnected so if looks as if there is two different users.
 
@@ -86,9 +115,13 @@ Only Egos are accessible through the API except for the requesting user. They ma
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | the unique id of this ego |
-| name | the username for this ego | string (max length: 32 characters) |
-| discriminator | the discriminator for this ego | int (min: 0, max: 9,999) |
+| id | The unique id of this ego |
+| name | The username for this ego | string (max length: 32 characters) |
+| verified | Whether this ego is verfied or not | boolean |
+| flags | The flags for this ego | integer |
+| discriminator | The discriminator for this ego | int (min: 0, max: 9,999) |
+| avatar | The avatar hash for this ego | string |
+| bot | whether this ego is part of an OAuth2 application | boolean |
 
 ### User Flags
 
