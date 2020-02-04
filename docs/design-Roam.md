@@ -89,3 +89,46 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 |--------|-------------|------|
 | name | The name of this flair | string |
 | colour | The colour of the flair | integer |
+
+## Permissions
+
+| Permissions | Value (2<sup>x</sup>) | Description | District |
+|-------------|-----------------------|-------------|----------|
+| SEND_MESSAGES | 0 | Allows users to send a message in a text channel or thread | M, V |
+| CREATE_POST | 1 | Allows Users to create a post on a feed | V |
+| CAN_VOTE | 2 | Allows users to vote up or down a post | V |
+| CREATE_COMMENT | 3 | Allows users to comment on a post | V |
+| CREATE_STATUS_UPDATE | 4 | Allows users to create a status update on a groups timeline | T |
+| REACT_TO_STATUS | 5 | Allows users to react to status updates | M |
+| ATTACH_FILES | 6 | Allows users to upload images and files | M, V, T(Groups) |
+| READ_MESSAGE_HISTORY | 7 | Allows users to read message history | M |
+| FAMILY_MODERATOR | 8 | Allows all permissions and bypasses channel and server overrides within a family of Theatres | M, V, T |
+| MANAGE_FAMILY | 9 | Allows a user to manage and edit a family | M, V, T|
+| ADMINISTRATOR | 10 | Allows all permissions and bypasses channel overrides within a server, board or group | M, V, T |
+| MANAGE_SERVER | 11 | Allows a user to manage and edit a server | M, V, T |
+| SEND_NEWS_UPDATE | 12 | Allows a user to create a news update | M, V |
+| MANAGE_NEWS_CHANNEL | 13 | Allows a user to manage and edit a news channel | M, V |
+| MANAGE_MESSAGES | 14 | Allows a user to delete orther users messages | M, V, T |
+| VIEW_CHANNEL | 15 | Allows a users to view a channel | M, V |
+| BAN_MEMBERS | 16 | Allows a user to ban a member of a server, board or group | M, V, T |
+| KICK_MEMBERS | 17 | Allows a user to kick a member of a server, board or group | M, V, T |
+| CREATE_INVITE | 18 | Allows a user to create an invite for a server, board or group | M, V, T |
+| MANAGE_CHANNELS | 19 | Allows a user to manage and edit a channel | M, V, T |
+| MANAGE_ROLES | 20 | Allows a user to manage and edit roles | M, V, T |
+| CREATE_THREAD | 21 | Allows a user to create a thread | M |
+| MANAGE_THREAD | 22 | Allows a user to manage and edit a thread | M |
+| AUTO-EMBED_LINK | 23 | Links sent with this permissions will be auto-embedded | M, T |
+| ADD_REACTIONS | 24 | Allows users to add reactions to messages | M |  
+| SHARE_CHANNEL | 25 | Allows a user to share a channel between multiple servers | M, V, T(Org) |
+| MANAGE_FLAIRS | 26 | Allows a user to manage and edit flairs | M, V |
+| MENTION_EVERYONE | 27 | Users with this permission can mention everyone within a server | M |
+| CHANGE_OWN_NICKNAME | 28 | Allows a user to change their nickname | M, T | 
+| MANAGE_NICKNAMES | 29 | Allows a user to manage and edit other users nicknames | M, T |
+| VIEW_AUDIT_LOGS | 30 | Allows a user to view audit logs | M, V, T |
+| MANAGE_PAGE | 31 | Allows a user to manage and edit a page | T(Org) |
+| MANAGE_POSTS | 32 | Allows a user to manage and delete other users posts | V |
+| USE_EXTERNAL_EMOJIS | 33 | Allows a user to use custom emojis | M, V, T |
+| MANAGE_EMOJIS | 34 | Allows a user to manage and edit emojis | M, V, T |
+| SCHEDULE_EVENT | 35 | Allows a user to schedule an event | T(Groups) |
+| START_POLL | 36 | Allows a user to begin a poll | M, V, T |
+ 
