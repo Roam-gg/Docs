@@ -4,6 +4,18 @@
 
 Roam as a service is built around connections, for this reason instead of using a REST API the roam API will use GraphQL.
 
+## Family
+
+Theater's can be grouped together in families, theater's in the same family can share their resources between each other. Each family has it's own owners.
+
+| Field | Description | Type |
+|-------|-------------|------|
+| id | The unique id of this family | snowflake |
+| name | The name of this family | string |
+| theaters | The [theaters](#theater) this board has | List of [Theaters](#theater) |
+| roles | The [roles](#roles) this board has | List of [Roles](#roles) |
+| channels | The [news channels](design-Mercury.md#news-channel) for the family | List of [News Channels](design-Mercury.md#news-channel) |
+
 ## Theater
 
 [Boards from Venus](analysis-Venus.md#Boards) and [Servers from Mercury](analysis-Mercury.md#Servers) will be merged into one object called a Theater. Theaters will have Channels that serve as both [feeds](analysis-Venus.md#Feeds) and [channels](analysis-Mercury.md#Channels).
@@ -14,7 +26,10 @@ Roam as a service is built around connections, for this reason instead of using 
 | name | The name of this Theater (is unique) | string |
 | channels | The [channels](#channel) of this Theater | List of [Channels](#channel) |
 | roles | The [roles](#roles) of this Theater | List of [Roles](#roles) |
-| flairs | The flairs that this server has | List of [Flairs](#flairs) |
+| flairs | The [flairs](#flairs) that this server has | List of [Flairs](#flairs) |
+| family | The [family](#family) this theater belongs to | [Family](#family) |
+| shared_channels | The [channels](#channel) that this theater has from other theaters/its family | List of [Channels](#channel) |
+| shared_roles | The [roles](#roles) that this theather has from other theaters/its family | List of [Roles](#roles) |
 
 ## Channel
 
@@ -24,7 +39,14 @@ These are fields common to all channels, other channel types are [Feeds](design-
 |-------|-------------|------|
 | id | The unique id of this Channel | snowflake |
 | name | The name of this channel | string |
-| overrides | The permission overrides | Dictionary with [role ids](#roles) for keys and integers for values |
+| overrides | The permission overrides | List of [Overide Objects](#overrides) |
+
+### Overrides
+
+| Field | Description | Type |
+|-------|-------------|------|
+| subject | the role/ego that is being overriden |
+| permissions | the permissions to override with | integer |
 
 ## Message
 
@@ -122,7 +144,7 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | SHARE_CHANNEL | 25 | Allows a user to share a channel between multiple servers | M, V, T(Org) |
 | MANAGE_FLAIRS | 26 | Allows a user to manage and edit flairs | M, V |
 | MENTION_EVERYONE | 27 | Users with this permission can mention everyone within a server | M |
-| CHANGE_OWN_NICKNAME | 28 | Allows a user to change their nickname | M, T | 
+| CHANGE_OWN_NICKNAME | 28 | Allows a user to change their nickname | M, T |
 | MANAGE_NICKNAMES | 29 | Allows a user to manage and edit other users nicknames | M, T |
 | VIEW_AUDIT_LOGS | 30 | Allows a user to view audit logs | M, V, T |
 | MANAGE_PAGE | 31 | Allows a user to manage and edit a page | T(Org) |
@@ -131,4 +153,3 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | MANAGE_EMOJIS | 34 | Allows a user to manage and edit emojis | M, V, T |
 | SCHEDULE_EVENT | 35 | Allows a user to schedule an event | T(Groups) |
 | START_POLL | 36 | Allows a user to begin a poll | M, V, T |
- 
