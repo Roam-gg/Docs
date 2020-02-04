@@ -156,3 +156,21 @@ TODO: Add activity
 | WORSE |  |
 | YOUNG |  |
 
+## Activity
+
+| Activity | Emoji |
+|----------|-------|
+|CELEBRATING |  |
+| WATCHING |  |
+| EATING |  |
+| DRINKING |  |
+| TRAVELLING_TO |  |
+| ATTENDING |  |
+| LISTENING_TO |  |
+| LOOKING_FOR |  |
+| THINKING_ABOUT |  |
+| READING |  |
+| PLAYING |  |
+| SUPPORTING |  |
+| WORKING_ON |  |
+
