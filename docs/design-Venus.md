@@ -43,4 +43,7 @@ Either:
 
 ### Comment
 
-TODO: Add Comment
+| Field | Description | Type |
+|-------|-------------|------|
+| content | The content of this comment | string |
+| replies | The replies to this comment | List of [comments](#comment) |
