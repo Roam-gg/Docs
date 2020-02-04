@@ -124,17 +124,17 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | REACT_TO_STATUS | 5 | Allows users to react to status updates | M |
 | ATTACH_FILES | 6 | Allows users to upload images and files | M, V, T(Groups) |
 | READ_MESSAGE_HISTORY | 7 | Allows users to read message history | M |
-| FAMILY_MODERATOR | 8 | Allows all permissions and bypasses channel and server overrides within a family of Theatres | M, V, T |
+| FAMILY_MODERATOR | 8 | Allows all permissions and bypasses channel and server overrides within a family of Theaters | M, V, T |
 | MANAGE_FAMILY | 9 | Allows a user to manage and edit a family | M, V, T|
-| ADMINISTRATOR | 10 | Allows all permissions and bypasses channel overrides within a server, board or group | M, V, T |
+| ADMINISTRATOR | 10 | Allows all permissions and bypasses channel overrides within a theater | M, V, T |
 | MANAGE_SERVER | 11 | Allows a user to manage and edit a server | M, V, T |
 | SEND_NEWS_UPDATE | 12 | Allows a user to create a news update | M, V |
 | MANAGE_NEWS_CHANNEL | 13 | Allows a user to manage and edit a news channel | M, V |
 | MANAGE_MESSAGES | 14 | Allows a user to delete orther users messages | M, V, T |
 | VIEW_CHANNEL | 15 | Allows a users to view a channel | M, V |
-| BAN_MEMBERS | 16 | Allows a user to ban a member of a server, board or group | M, V, T |
-| KICK_MEMBERS | 17 | Allows a user to kick a member of a server, board or group | M, V, T |
-| CREATE_INVITE | 18 | Allows a user to create an invite for a server, board or group | M, V, T |
+| BAN_MEMBERS | 16 | Allows a user to ban a member of a Theater | M, V, T |
+| KICK_MEMBERS | 17 | Allows a user to kick a member of a theater | M, V, T |
+| CREATE_INVITE | 18 | Allows a user to create an invite for a theater | M, V, T |
 | MANAGE_CHANNELS | 19 | Allows a user to manage and edit a channel | M, V, T |
 | MANAGE_ROLES | 20 | Allows a user to manage and edit roles | M, V, T |
 | CREATE_THREAD | 21 | Allows a user to create a thread | M |
