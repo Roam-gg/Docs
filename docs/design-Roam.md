@@ -153,3 +153,15 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | MANAGE_EMOJIS | 34 | Allows a user to manage and edit emojis | M, V, T |
 | SCHEDULE_EVENT | 35 | Allows a user to schedule an event | T(Groups) |
 | START_POLL | 36 | Allows a user to begin a poll | M, V, T |
+
+### Attachment
+
+| Field | Description | Type |
+|-------|-------------|------|
+| id | ID of the attachment | snowflake |
+| filename | Name of the attached file | string |
+| size | Attachment size in bytes | integer |
+| url | Source url of attachment | string |
+| proxy_url | Proxied url of attachment | string |
+| height | Height of attachment | ?integer |
+| width | Width of attachment | ?integer |

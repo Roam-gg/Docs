@@ -28,10 +28,12 @@
 | Field | Description | Type |
 |-------|-------------|------|
 | content | The text of the message | string (max length: 5,000) |
+| Attachment | Attachement for this section | [Attachment](design-Roam.md#Attachment) |
 
 ### News Article
 
 | Field | Description | Type |
 |-------|-------------|------|
 | content | The text for this article | string (max length: 10,000) |
-| flairs | The flairs attached to this article | List of [Flairs](design-Roam.md#flairs)
+| flairs | The flairs attached to this article | List of [Flairs](design-Roam.md#flairs) |
+| Attachment | Attachement for this section | [Attachment](design-Roam.md#Attachment) |

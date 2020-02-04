@@ -22,18 +22,17 @@
 | Field | Description | Type |
 |-------|-------------|------|
 | title | The title of the post | string (max length: 100) |
-| content | The content of the post | List of [feed message content](#post-content) (max size: 40,000 characters OR 50MB whichever is hit first) |
+| content | The content of the post | List of [post content](#post-content) (max size: 40,000 characters OR 50MB whichever is hit first) |
 
 #### Post Content
 
 Either:
 
-##### Image content
+##### Attachment content
 
 | Field | Description | Type |
 |-------|-------------|------|
-| source | The source for the image | url |
-| content | The raw btyes for the image | png/gif/jpg/mp4 |
+| content | Attachement for this section | [Attachment](design-Roam.md#Attachment) |
 
 ##### Text content
 
