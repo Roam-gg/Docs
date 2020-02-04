@@ -18,7 +18,7 @@ Roam as a service is built around connections, for this reason instead of using 
 
 ## Channel
 
-These are fields common to all channels, other channel types are [Feeds](design-Venus.md#feed), [Multi-Feeds](design-Venus.md#multi-feed), [Text Channels](design-Mercury.md#text-channel), [News Channels](design-Mercury.md#news-channel), and [Threads](design-Mercury.md#thread).
+These are fields common to all channels, other channel types are [Feeds](design-Venus.md#feed), [Multi-Feeds](design-Venus.md#multi-feed), [Text Channels](design-Mercury.md#text-channel), [News Channels](design-Mercury.md#news-channel), [Threads](design-Mercury.md#thread), and [Timelines](design-Terra.md#timeline).
 
 | Field | Description | Type |
 |-------|-------------|------|
