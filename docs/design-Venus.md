@@ -26,18 +26,13 @@
 
 #### Post Content
 
-Either:
-
-##### Attachment content
-
-| Field | Description | Type |
-|-------|-------------|------|
-| content | Attachement for this section | [Attachment](design-Roam.md#Attachment) |
+Either an [Attachment](design-Roam.md#Attachment) or a:
 
 ##### Text content
 
 | Field | Description | Type |
 |-------|-------------|------|
+| title | The title of this section | ?string |
 | content | The content of the text section | string |
 
 ### Comment
@@ -46,3 +41,8 @@ Either:
 |-------|-------------|------|
 | content | The content of this comment | string |
 | replies | The replies to this comment | List of [comments](#comment) |
+| total_votes | The total amount of votes received | integer |
+| upvotes | The amount of upvotes for the posts | integer |
+| downvotes | The amount of downvotes for the post | integer |
+| post | The [post](#post) that this comment was made on | [Post](#post) |
+| rank | The rank used for ordering | float |
