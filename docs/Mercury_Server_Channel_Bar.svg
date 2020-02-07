@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="1080"
+   viewBox="0 0 92.60417 285.75001"
+   version="1.1"
+   id="svg139"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="Mercury_Server_Channel_Bar.svg">
+  <defs
+     id="defs133" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="348.67955"
+     inkscape:cy="532.40352"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata136">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-11.249939)">
+    <rect
+       id="rect149"
+       width="17.764881"
+       height="286.50595"
+       x="0.37797621"
+       y="10.871963"
+       style="stroke-width:0.26458332;fill:#00ffff" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335;"
+       x="-140.03981"
+       y="9.3985682"
+       id="text153"
+       transform="rotate(-91.410184)"><tspan
+         sodipodi:role="line"
+         id="tspan151"
+         x="-140.03981"
+         y="9.3985682"
+         style="stroke-width:0.26458335;fill:#000000;">Servers</tspan></text>
+    <rect
+       style="fill:#ff00ff;stroke-width:0.26458335"
+       id="rect155"
+       width="18.142857"
+       height="20.788691"
+       x="0.37797621"
+       y="10.871963" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="-83.656166"
+       y="11.338526"
+       id="text159"
+       transform="rotate(-92.048502)"><tspan
+         sodipodi:role="line"
+         x="-83.656166"
+         y="11.338526"
+         style="stroke-width:0.26458335"
+         id="tspan163">To Home</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0.26458335"
+       id="path169"
+       d="M 6.9174883,34.823497 C 6.8068197,33.568762 6.6979757,32.314123 6.627266,31.056415 6.581046,30.191828 6.571271,29.32598 6.566966,28.460362 c -0.00188,-0.755184 -2.301e-4,-1.510371 5.292e-4,-2.265556 0.00138,-0.677705 -0.00344,-1.355369 -0.00241,-2.033077 -0.00177,-0.616148 -0.00148,-1.232284 2.289e-4,-1.84844 -0.021381,-0.544062 0.055817,-1.094098 -0.078155,-1.626691 -0.044164,-0.06708 -0.048703,-0.14638 -0.1361493,-0.09747 -0.166624,0.09319 -0.013375,0.06517 -0.158619,0.230687 -0.041767,0.0476 -0.2132216,0.136489 -0.1581137,0.105298 1.5248139,-0.863034 3.0451003,-1.734044 4.5676509,-2.601066 -0.6215168,0.377545 -1.1760692,0.845626 -1.7322279,1.31018 -0.5101667,0.42662 -0.940284,0.91876 -1.3577242,1.433016 -0.5002568,0.516136 -0.8303896,1.12654 -1.1640688,1.75272 -0.1572163,0.471987 -0.2050011,0.519368 -0.073374,0.01929 1.6757698,-1.091052 -0.3840088,0.253985 -4.4935683,2.581818 -0.070884,0.04015 0.1244821,-0.105151 0.1880153,-0.156145 C 2.2337315,25.052427 2.3674236,24.843383 2.5473349,24.552484 3.0741952,23.872812 3.7413021,23.325029 4.3865081,22.763787 4.8575112,22.358615 5.3348113,21.95726 5.7702047,21.51358 6.1599089,21.193911 6.46705,20.792108 6.8242094,20.441201 5.9226793,22.26275 10.48954,16.911866 12.340434,17.773673 c 0.206743,0.09626 0.363082,0.24578 0.581278,0.331574 0.409054,0.327936 0.866431,0.580368 1.285274,0.891179 0.53757,0.230238 0.959106,0.582033 1.337811,1.024755 0.46435,0.40844 0.725998,0.982578 0.979278,1.534617 0.152965,0.219481 0.273629,0.454813 0.388296,0.695573 0,0 -4.902166,2.774813 -4.902166,2.774813 v 0 c -0.11288,-0.24557 -0.24357,-0.478471 -0.389492,-0.706461 C 11.39897,23.809576 11.147575,23.31138 10.724848,22.936475 10.35636,22.542955 9.9277077,22.2835 9.4576376,22.025412 9.0431466,21.761354 8.6579686,21.454449 8.2233092,21.224352 8.0977147,21.161641 7.9800809,21.077951 7.8453032,21.038687 c -0.1384779,-0.04034 -0.3197815,0.01239 -0.4495041,0.05318 1.5627319,-0.894167 3.1254639,-1.788334 4.6881959,-2.6825 -0.49113,0.148185 -0.743431,0.633902 -1.098712,0.978491 -0.496096,0.385095 -0.898472,0.8847 -1.3879457,1.282584 -0.6719713,0.500718 -1.2876826,1.073707 -1.8841067,1.663019 -0.3296687,0.339566 -0.2631085,0.543718 -0.5084395,0.843126 -0.049791,0.06076 -0.1253794,0.09522 -0.1928069,0.135534 C 2.0831374,26.258928 3.811051,25.535344 1.845666,26.346644 1.2471553,26.196026 1.0624572,25.708322 1.2214045,25.138532 1.5312134,24.482924 1.8200266,23.796254 2.3553971,23.287043 2.7445092,22.734864 3.1342706,22.193564 3.6684194,21.776751 4.1604839,21.237113 4.7682225,20.794392 5.3634816,20.377007 7.061355,19.391711 8.7504389,18.391111 10.457102,17.421119 c 0.408998,-0.232457 0.825651,0.262394 0.983357,0.574628 0.165731,0.581155 0.155993,1.162339 0.137114,1.76366 0.0017,0.616112 0.002,1.232205 1.79e-4,1.84831 8.73e-4,0.678978 -0.0043,1.357904 -0.004,2.036879 -6.35e-4,0.754876 -0.0018,1.509751 -0.0028,2.264626 -1.31e-4,0.861105 2.91e-4,1.722411 0.02977,2.583127 0.04903,1.245455 0.124698,2.491237 0.290256,3.727352 0,0 -4.9734087,2.603796 -4.9734087,2.603796 z"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ff5555;stroke-width:0.26458335"
+       id="rect171"
+       width="74.839287"
+       height="20.788689"
+       x="18.520832"
+       y="10.871963" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.78017187px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19450429"
+       x="21.493698"
+       y="20.142622"
+       id="text175"
+       transform="scale(1.0278872,0.9728694)"><tspan
+         sodipodi:role="line"
+         id="tspan173"
+         x="21.493698"
+         y="20.142622"
+         style="stroke-width:0.19450429">Server </tspan><tspan
+         sodipodi:role="line"
+         x="21.493698"
+         y="29.867838"
+         style="stroke-width:0.19450429"
+         id="tspan177">Name</tspan></text>
+    <rect
+       style="fill:#ffff00;stroke-width:0.26458335"
+       id="rect179"
+       width="24.190477"
+       height="20.03274"
+       x="69.16964"
+       y="10.871963" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.06676149px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10166904"
+       x="80.618858"
+       y="16.640444"
+       id="text183"
+       transform="scale(0.92451236,1.0816513)"><tspan
+         sodipodi:role="line"
+         id="tspan181"
+         x="80.618858"
+         y="16.640444"
+         style="stroke-width:0.10166904">Server</tspan><tspan
+         sodipodi:role="line"
+         x="80.618858"
+         y="21.723894"
+         style="stroke-width:0.10166904"
+         id="tspan185">Settings</tspan></text>
+    <rect
+       style="fill:#ddff55;stroke-width:0.26458335"
+       id="rect187"
+       width="74.083336"
+       height="18.520836"
+       x="18.520832"
+       y="31.660652" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="19.65476"
+       y="42.243988"
+       id="text191"><tspan
+         sodipodi:role="line"
+         id="tspan189"
+         x="19.65476"
+         y="42.243988"
+         style="stroke-width:0.26458335">Server Family</tspan></text>
+    <rect
+       style="fill:#2aff2a;stroke-width:0.26458335"
+       id="rect193"
+       width="74.461319"
+       height="20.032713"
+       x="18.142857"
+       y="277.34518" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.93743992px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.223436"
+       x="21.389231"
+       y="244.42737"
+       id="text197"
+       transform="scale(0.84448248,1.1841572)"><tspan
+         sodipodi:role="line"
+         id="tspan195"
+         x="21.389231"
+         y="244.42737"
+         style="stroke-width:0.223436">Profile and Settings</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="29.482143"
+       y="116.70531"
+       id="text201"><tspan
+         sodipodi:role="line"
+         id="tspan199"
+         x="29.482143"
+         y="116.70531"
+         style="stroke-width:0.26458335">Channels</tspan></text>
+  </g>
+</svg>
