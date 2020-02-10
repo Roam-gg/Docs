@@ -42,6 +42,50 @@ Theater's can be grouped together in families, theater's in the same family can 
 | banner | The Theater's banner | ?banner hash |
 | emojis | This Theater's custom emojis | List of [Emojis](#emoji) |
 
+### Mutations
+
+#### createTheater
+
+Returns a new [Theater](#theater) on success.
+
+##### Input
+
+| Field | Description | Type |
+|-------|-------------|------|
+| name | The name for the new theater | string (length: 2-100 Characters) |
+| icon | base64 128x128 image for the new theater | string |
+| banner | base64 16:9 image for the new theater | string |
+| roles | Roles for the new theater | List of [Roles](#roles) |
+| channels | Channels for the new theater | List of Partial Channels |
+
+##### Partial Channel
+
+| Field | Description | Type |
+|-------|-------------|------|
+| name | The name for the new channel | string |
+| type | The type for the new channel | string |
+
+#### updateTheater
+
+Returns the updated [Theater](#theater) on a success.
+
+##### Input
+
+| Field | Description | Type |
+|-------|-------------|------|
+| id | The id of the [Theater](#theater) to update | URN |
+| name | The theater's new name | ?string (length: 2-100 Characters) |
+| icon | base64 128x128 image | ?string |
+| banner | base64 16:9 image | ?string |
+
+#### deleteTheater
+
+Returns the deleted [Theater](#theater) on a success.
+
+##### Input
+
+Takes the theater's id.
+
 ## Channel
 
 These are fields common to all channels, other channel types are [Feeds](design-Venus.md#feed), [Multi-Feeds](design-Venus.md#multi-feed), [Text Channels](design-Mercury.md#text-channel), [News Channels](design-Mercury.md#news-channel), [Threads](design-Mercury.md#thread), and [Timelines](design-Terra.md#timeline).
