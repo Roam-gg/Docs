@@ -31,13 +31,16 @@ Theater's can be grouped together in families, theater's in the same family can 
 | Field | Description | Type |
 |-------|-------------|------|
 | id | The unique id of this Theater | URN |
-| name | The name of this Theater (is unique) | string |
+| name | The name of this Theater (is unique) | string (length: 2-100 Characters) |
 | channels | The [channels](#channel) of this Theater | List of [Channels](#channel) |
 | roles | The [roles](#roles) of this Theater | List of [Roles](#roles) |
 | flairs | The [flairs](#flairs) that this server has | List of [Flairs](#flairs) |
 | family | The [family](#family) this theater belongs to | [Family](#family) |
 | shared_channels | The [channels](#channel) that this theater has from other theaters/its family | List of [Channels](#channel) |
 | shared_roles | The [roles](#roles) that this theather has from other theaters/its family | List of [Roles](#roles) |
+| icon | The Theater's icon | ?icon hash |
+| banner | The Theater's banner | ?banner hash |
+| emojis | This Theater's custom emojis | List of [Emojis](#emoji) |
 
 ## Channel
 
@@ -47,13 +50,16 @@ These are fields common to all channels, other channel types are [Feeds](design-
 |-------|-------------|------|
 | id | The unique id of this Channel | URN |
 | name | The name of this channel | string |
-| overrides | The permission overrides | List of [Overide Objects](#overrides) |
+| last_message | The last message sent in the channel | [Message](#message) |
+| overrides* | The permission overrides | List of [Overide Objects](#overrides) |
+
+* overrides are not present in user's timelines.
 
 ### Overrides
 
 | Field | Description | Type |
 |-------|-------------|------|
-| subject | the role/ego that is being overriden |
+| subject | the role/ego that is being overriden | [Role](#roles) or [Ego](#egos) |
 | permissions | the permissions to override with | integer |
 
 ## Message
