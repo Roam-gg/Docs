@@ -75,11 +75,11 @@ All message type inherit these fields, other message types are: [Posts](design-V
 
 There are three different types of "user" on the platform: humans, bots, and organisations. Organisations cannot use Venus or Mercury so they are treated differently. We shall categorise these types of users by what they can use.
 
-- Clients are the base type, they can access Roam's Terra service
-  - Organisations have a page on Terra, they can be DMed by other users but cannot send messages unsolicited. They are marked clearly to other users as brands.
-- Users can also use Roam's Venus and Mercury Services
-  - Persons are normal accounts
-  - Bots are clearly marked to make other users aware that they are automated, they do not have profiles and instead have information pages.
+* Clients are the base type, they can access Roam's Terra service
+  * Organisations have a page on Terra, they can be DMed by other users but cannot send messages unsolicited. They are marked clearly to other users as brands.
+* Users can also use Roam's Venus and Mercury Services
+  * Persons are normal accounts
+  * Bots are clearly marked to make other users aware that they are automated, they do not have profiles and instead have information pages.
 
 ```
          Client
