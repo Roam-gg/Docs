@@ -2,6 +2,14 @@
 
 ## API
 
+## IDs
+
+IDs in a decentralized application are slightly more complex than a centralized application. A user may request a resource on a remote node, this means that ID's do not only have to act as an reference to the resource, but also as a reference to the source node. This is why all ids on roam are URNs following this format: `urn:{node_id}:{resource_id}`
+
+Each resource ID is a [snowflake](https://developer.twitter.com/en/docs/basics/twitter-ids), using snowflakes guarantees uniqueness with all other resource ids on at least the node and potentially the entire network.
+
+Node ids are UUIDs.
+
 Roam as a service is built around connections, for this reason instead of using a REST API the roam API will use GraphQL.
 
 ## Family
@@ -10,7 +18,7 @@ Theater's can be grouped together in families, theater's in the same family can 
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The unique id of this family | snowflake |
+| id | The unique id of this family | URN |
 | name | The name of this family | string |
 | theaters | The [theaters](#theater) this board has | List of [Theaters](#theater) |
 | roles | The [roles](#roles) this board has | List of [Roles](#roles) |
@@ -22,7 +30,7 @@ Theater's can be grouped together in families, theater's in the same family can 
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The unique id of this Theater | snowflake |
+| id | The unique id of this Theater | URN |
 | name | The name of this Theater (is unique) | string |
 | channels | The [channels](#channel) of this Theater | List of [Channels](#channel) |
 | roles | The [roles](#roles) of this Theater | List of [Roles](#roles) |
@@ -37,7 +45,7 @@ These are fields common to all channels, other channel types are [Feeds](design-
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The unique id of this Channel | snowflake |
+| id | The unique id of this Channel | URN |
 | name | The name of this channel | string |
 | overrides | The permission overrides | List of [Overide Objects](#overrides) |
 
@@ -54,7 +62,7 @@ All message type inherit these fields, other message types are: [Posts](design-V
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The id of this message | snowflake |
+| id | The id of this message | URN |
 | author | The [ego](#egos) that created this message (null if ego/user was deleted) | ?[Ego](#egos) |
 
 ## Users
@@ -81,7 +89,7 @@ The following objects are not publicly accessible and are only documented for re
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The unique id for this client | snowflake |
+| id | The unique id for this client | URN |
 
 ### Organisation
 
@@ -144,7 +152,7 @@ There are three special roles: `@everyone`, `@members`, and `@public`. These rol
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The id of the role | snowflake |
+| id | The id of the role | URN |
 | name | The name of the role | string (max length: 32 characters) |
 | colour | The colour of the role | integer |
 | permissions | The permissions for this user | integer |
@@ -205,7 +213,7 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | ID of the attachment | snowflake |
+| id | ID of the attachment | URN |
 | filename | Name of the attached file | string |
 | size | Attachment size in bytes | integer |
 | url | Source url of attachment | string |
