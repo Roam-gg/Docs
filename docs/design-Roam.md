@@ -167,6 +167,17 @@ Each Theater can have its ovn flairs that are used to categorise posts in [feeds
 | name | The name of this flair | string |
 | colour | The colour of the flair | integer |
 
+## Emoji
+
+| Field | Description | Type |
+|-------|-------------|------|
+| id | The id for the emoji | URN |
+| name | The name of the emoji | string |
+| roles | The roles allowed to use this emoji | List of [Roles](#roles) |
+| ego | The ego that created this emoji | [Ego](#egos) |
+| require_colons | Whether this emoji requires colons around it | boolean |
+| animated | Whether this emoji is animated | boolean |
+
 ## Permissions
 
 | Permissions | Value (2<sup>x</sup>) | Description | District |
