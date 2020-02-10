@@ -114,6 +114,7 @@ The following objects are not publicly accessible and are only documented for re
 | displayed_verification | The [ego](#egos) the verification status (if present) is displayed | [Ego](#egos) |
 | displayed_flags | Which [ego](#egos) to display flags on (if applicable) | [Ego](#egos) |
 | flags | The flags that this user has | integer |
+| hashp | The users hashed & salted password | bcrypt hash |
 
 ### Bot
 
