@@ -90,7 +90,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -278,16 +278,16 @@
        y="129.17856" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.86723042px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.27168074"
-       x="121.74735"
-       y="127.66517"
+       style="font-style:normal;font-weight:normal;font-size:10.71971416px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26799282"
+       x="123.4519"
+       y="125.93218"
        id="text476"
-       transform="scale(0.87635026,1.1410963)"><tspan
+       transform="scale(0.86445426,1.1567992)"><tspan
          sodipodi:role="line"
-         x="121.74735"
-         y="127.66517"
-         style="stroke-width:0.27168074"
-         id="tspan478">Edit Page/Follow/ Play/Watch button, Like, Share, Send Message</tspan></text>
+         x="123.4519"
+         y="125.93218"
+         style="stroke-width:0.26799282"
+         id="tspan478">Edit Page/Follow/ Play/Watch button, Like, Share, Send Message, Notifications, Report</tspan></text>
     <rect
        style="fill:#ff2a2a;stroke-width:0.2413175"
        id="rect480"
