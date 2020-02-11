@@ -22,7 +22,13 @@
 | Field | Description | Type |
 |-------|-------------|------|
 | title | The title of the post | string (max length: 100) |
-| content | The content of the post | List of [post content](#post-content) (max size: 40,000 characters OR 50MB whichever is hit first) |
+| content | The content of the post | List of [Post Content](#post-content) (max size: 40,000 characters OR 50MB whichever is hit first) |
+| theater | The theater the post is created in | [Theater](design-Roam.md#Theater) |
+| comments | The list of top level comments for a post | List of [Comments](#Comment) |
+| upvotes | The amount of upvotes for the posts | integer |
+| downvotes | The amount of downvotes for the post | integer |
+|total_votes | The total amount of votes recieved | integer |
+| rant | The rank used for ordering the post | float |
 
 #### Post Content
 

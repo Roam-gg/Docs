@@ -22,6 +22,7 @@
 | location | The location attached to this status update | Geographic Coords |
 | background | The background used for this status update | url |
 
+
 ## Emotion
 
 | Emotion | Emoji |
@@ -169,4 +170,3 @@
 | PLAYING |  |
 | SUPPORTING |  |
 | WORKING_ON |  |
-
