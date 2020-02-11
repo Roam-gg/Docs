@@ -90,7 +90,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -292,7 +292,7 @@
          x="121.74735"
          y="127.66517"
          style="stroke-width:0.27168074"
-         id="tspan478">Edit Page/Follow, Like, Share, Send Message, Github/Repo Link</tspan></text>
+         id="tspan478">Edit Page/Follow, Like, Share, Send Message, Github/Repo Link, Report</tspan></text>
     <rect
        style="fill:#ff2a2a;stroke-width:0.30794615"
        id="rect480"
