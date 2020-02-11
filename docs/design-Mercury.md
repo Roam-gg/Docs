@@ -29,6 +29,13 @@
 |-------|-------------|------|
 | content | The text of the message | string (max length: 5,000) |
 | Attachment | Attachement for this section | [Attachment](design-Roam.md#Attachment) |
+| theater | The theater a message is sent in | [Theater](design-Roam.md#Theater) |
+| member | Member properities for a messages author | partial [User](design-Roam.md#Users) object |
+| mention_everyone | Whether the message mentions everyone | boolean |
+| mention_role | Any roles mentioned in this message | array of [roles](design-Roam.md#Roles) |
+| reactions | Any reactions to a message | array of reaction objects |
+| pinned | Whether a message has been pinned | boolean |
+
 
 ### News Article
 
