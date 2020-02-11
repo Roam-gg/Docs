@@ -18,7 +18,7 @@ Theater's can be grouped together in families, theater's in the same family can 
 
 | Field | Description | Type |
 |-------|-------------|------|
-| id | The unique id of this family | URN |
+| id | The unique id of this family | URN || id | The unique id of this Theater | URN |
 | name | The name of this family | string |
 | theaters | The [theaters](#theater) this board has | List of [Theaters](#theater) |
 | roles | The [roles](#roles) this board has | List of [Roles](#roles) |
@@ -27,7 +27,7 @@ Theater's can be grouped together in families, theater's in the same family can 
 ## Theater
 
 [Boards from Venus](analysis-Venus.md#Boards) and [Servers from Mercury](analysis-Mercury.md#Servers) will be merged into one object called a Theater. Theaters will have Channels that serve as both [feeds](analysis-Venus.md#Feeds) and [channels](analysis-Mercury.md#Channels).
-
+| id | The unique id of this Theater | URN |
 | Field | Description | Type |
 |-------|-------------|------|
 | id | The unique id of this Theater | URN |
@@ -48,10 +48,7 @@ Theater's can be grouped together in families, theater's in the same family can 
 
 Returns a new [Theater](#theater) on success.
 
-##### Input
-
-| Field | Description | Type |
-|-------|-------------|------|
+##### Input| id | The unique id of this Theater | URN |
 | name | The name for the new theater | string (length: 2-100 Characters) |
 | icon | base64 128x128 image for the new theater | string |
 | banner | base64 16:9 image for the new theater | string |
@@ -77,9 +74,7 @@ Returns the updated [Theater](#theater) on a success.
 | name | The theater's new name | ?string (length: 2-100 Characters) |
 | icon | base64 128x128 image | ?string |
 | banner | base64 16:9 image | ?string |
-
-#### deleteTheater
-
+| id | The unique id of this Theater | URN |
 Returns the deleted [Theater](#theater) on a success.
 
 ##### Input
@@ -114,6 +109,13 @@ All message type inherit these fields, other message types are: [Posts](design-V
 |-------|-------------|------|
 | id | The id of this message | URN |
 | author | The [ego](#egos) that created this message (null if ego/user was deleted) | ?[Ego](#egos) |
+| channel | Channel the message was sent in |  |
+| attachment | Any [Attached](#Attachment) files |  |
+| timestamp | Time a message was sent | ISO8601 timestamp |
+| edit_timestamp | Time a message was edited | ISO8601 timestamp |
+| history | The history of all edits made to a post | ?message |
+| embeds | Embedded content | array of embed objects |
+| nonce | Validating a message has been sent | integer or string |
 
 ## Users
 
@@ -187,7 +189,7 @@ Only Egos are accessible through the API except for the requesting user. They ma
 | Flag | Value (2<sup>x</sup>) |
 |------|-----------------------|
 | None | 0 |
-| Emporers | 1 |
+| Emperors | 1 |
 | Roam Employee | 2 |
 | Roam Partner | 3 |
 | System | 4 |
