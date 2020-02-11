@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="Venus_Theater.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1046">
+      <g
+         id="use1048"
+         inkscape:label="Clip">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke-width:0.26458332"
+           id="rect1131"
+           width="393.09521"
+           height="20.032738"
+           x="7.9375"
+           y="218.00296" />
+        <rect
+           style="fill:#ffdd55;fill-opacity:1;stroke-width:0.26972133"
+           id="rect1133"
+           width="26.836309"
+           height="20.032745"
+           x="7.9375"
+           y="218.00296" />
+        <rect
+           style="fill:#483737;fill-opacity:1;stroke-width:0.30217543"
+           id="rect1135"
+           width="365.125"
+           height="11.339285"
+           x="34.773811"
+           y="218.00296" />
+        <rect
+           style="fill:#deaa87;fill-opacity:1;stroke-width:0.26458332"
+           id="rect1137"
+           width="366.25891"
+           height="8.6934662"
+           x="34.773811"
+           y="229.34224" />
+        <rect
+           style="fill:#800000;fill-opacity:1;stroke-width:0.26711518"
+           id="rect1139"
+           width="32.883907"
+           height="20.03273"
+           x="368.1488"
+           y="218.00296" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1066">
+      <g
+         id="use1068"
+         inkscape:label="Clip">
+        <rect
+           style="fill:#00ffff;stroke-width:0.26458332"
+           id="rect1143"
+           width="393.09521"
+           height="29.860117"
+           x="7.5595236"
+           y="171.88986" />
+        <rect
+           style="fill:#800000;stroke-width:0.32272723"
+           id="rect1145"
+           width="23.056509"
+           height="29.860121"
+           x="377.59821"
+           y="171.88986" />
+        <rect
+           style="fill:#ffdd55;fill-opacity:1;stroke-width:0.26458332"
+           id="rect1147"
+           width="39.309525"
+           height="29.860121"
+           x="7.5595236"
+           y="171.88986" />
+        <rect
+           style="fill:#483737;stroke-width:0.26458332"
+           id="rect1149"
+           width="330.72916"
+           height="10.961311"
+           x="46.869049"
+           y="171.88985" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="48.380951"
+           y="180.58331"
+           id="text1153"><tspan
+             sodipodi:role="line"
+             id="tspan1151"
+             x="48.380951"
+             y="180.58331"
+             style="fill:#ffffff;stroke-width:0.26458332">Title, Link</tspan></text>
+        <rect
+           style="fill:#deaa87;stroke-width:0.26458332"
+           id="rect1155"
+           width="330.72916"
+           height="9.4494123"
+           x="46.869049"
+           y="182.85117" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:9.44319153px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23607978"
+           x="41.819847"
+           y="212.41045"
+           id="text1159"
+           transform="scale(1.1207369,0.89227007)"><tspan
+             sodipodi:role="line"
+             id="tspan1157"
+             x="41.819847"
+             y="212.41045"
+             style="stroke-width:0.23607978">Sub, Time Posted, User</tspan></text>
+        <rect
+           style="fill:#784421;stroke-width:0.26458332"
+           id="rect1161"
+           width="330.72916"
+           height="9.4494019"
+           x="46.869049"
+           y="192.30057" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:8.64903736px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21622592"
+           x="39.229557"
+           y="244.06454"
+           id="text1165"
+           transform="scale(1.2236429,0.81723189)"><tspan
+             sodipodi:role="line"
+             id="tspan1163"
+             x="39.229557"
+             y="244.06454"
+             style="stroke-width:0.21622592">Post Options</tspan></text>
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1090">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g1086"
+         id="use1092"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1192">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g1188"
+         id="use1194"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="949.43643"
+     inkscape:cy="546.03044"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="1920"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-11.249983)">
+    <g
+       id="g1190"
+       clip-path="url(#clipPath1192)"
+       transform="matrix(1,0,0,0.6164384,0,4.315061)">
+      <g
+         inkscape:label="Clip"
+         id="g1188">
+        <rect
+           y="11.249982"
+           x="1.8249597e-08"
+           height="27.592264"
+           width="508"
+           id="rect10"
+           style="fill:#ff0000;stroke-width:0.23450065" />
+        <rect
+           y="11.249982"
+           x="1.8249597e-08"
+           height="27.592264"
+           width="49.89286"
+           id="rect70"
+           style="fill:#ff00ff;stroke-width:0.21768682" />
+        <text
+           transform="scale(0.83390461,1.1991779)"
+           id="text74"
+           y="18.735346"
+           x="2.6249425"
+           style="font-style:normal;font-weight:normal;font-size:9.85905647px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24647638"
+           xml:space="preserve"><tspan
+             id="tspan76"
+             style="stroke-width:0.24647638"
+             y="18.735346"
+             x="2.6249425"
+             sodipodi:role="line">Logo </tspan><tspan
+             id="tspan92"
+             style="stroke-width:0.24647638"
+             y="31.059166"
+             x="2.6249425"
+             sodipodi:role="line">and name</tspan></text>
+        <rect
+           y="11.249982"
+           x="475.11606"
+           height="27.592264"
+           width="32.883926"
+           id="rect80"
+           style="fill:#00ffff;stroke-width:0.26458332" />
+        <text
+           transform="scale(0.6773937,1.4762464)"
+           id="text84"
+           y="14.277674"
+           x="701.3382"
+           style="font-style:normal;font-weight:normal;font-size:7.16908312px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17922707"
+           xml:space="preserve"><tspan
+             id="tspan86"
+             style="stroke-width:0.17922707"
+             y="14.277674"
+             x="701.3382"
+             sodipodi:role="line">Profile/Log in </tspan><tspan
+             id="tspan90"
+             style="stroke-width:0.17922707"
+             y="23.239027"
+             x="701.3382"
+             sodipodi:role="line">and sign up</tspan></text>
+        <rect
+           y="11.249983"
+           x="49.89286"
+           height="27.592264"
+           width="88.446426"
+           id="rect94"
+           style="fill:#00ff00;stroke-width:0.26458332" />
+        <text
+           id="text98"
+           y="23.345221"
+           x="55.940475"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="23.345221"
+             x="55.940475"
+             id="tspan96"
+             sodipodi:role="line">Family &amp; Sub </tspan><tspan
+             id="tspan100"
+             style="stroke-width:0.26458332"
+             y="36.574387"
+             x="55.940475"
+             sodipodi:role="line">List</tspan></text>
+        <rect
+           y="11.249983"
+           x="356.80951"
+           height="27.592264"
+           width="118.30653"
+           id="rect102"
+           style="fill:#000080;stroke-width:0.26458332" />
+        <text
+           id="text106"
+           y="21.455341"
+           x="357.94348"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="fill:#ffffff;stroke-width:0.26458332"
+             y="21.455341"
+             x="357.94348"
+             id="tspan104"
+             sodipodi:role="line">All, Popular, History, </tspan><tspan
+             id="tspan108"
+             style="fill:#ffffff;stroke-width:0.26458332"
+             y="34.684509"
+             x="357.94348"
+             sodipodi:role="line">Settings, Notifications</tspan></text>
+        <text
+           id="text112"
+           y="27.880936"
+           x="195.79166"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="fill:#ffffff;stroke-width:0.26458332"
+             y="27.880936"
+             x="195.79166"
+             id="tspan110"
+             sodipodi:role="line">Search Bar</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="fill:#ff8080;stroke-width:0.11893008"
+       id="rect116"
+       width="96.005974"
+       height="52.160732"
+       x="412.37198"
+       y="143.16367" />
+    <rect
+       style="fill:#ffd42a;stroke-width:0.26458332"
+       id="rect132"
+       width="95.628006"
+       height="34.01786"
+       x="412.37195"
+       y="262.98215" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="428.24701"
+       y="276.2113"
+       id="text136"><tspan
+         sodipodi:role="line"
+         id="tspan134"
+         x="428.24701"
+         y="276.2113"
+         style="stroke-width:0.26458332">Create Post</tspan><tspan
+         sodipodi:role="line"
+         x="428.24701"
+         y="289.44046"
+         style="stroke-width:0.26458332"
+         id="tspan1240">(At bottom)</tspan></text>
+    <rect
+       style="fill:#008000;stroke-width:0.17748787"
+       id="rect140"
+       width="508.37796"
+       height="6.8035688"
+       x="1.8249597e-08"
+       y="28.258913" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.76654291px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19416358"
+       x="5.8249073"
+       y="44.782906"
+       id="text144"
+       transform="scale(1.3626826,0.73384662)"><tspan
+         sodipodi:role="line"
+         id="tspan142"
+         x="5.8249073"
+         y="44.782906"
+         style="stroke-width:0.19416358">Sort &amp; View</tspan></text>
+    <g
+       id="g1088"
+       clip-path="url(#clipPath1090)"
+       transform="translate(4.5356139,129.26788)">
+      <g
+         inkscape:label="Clip"
+         id="g1086">
+        <rect
+           y="63.788677"
+           x="7.1815472"
+           height="97.895836"
+           width="392.71729"
+           id="rect138"
+           style="fill:#ffdd55;stroke-width:0.26458332" />
+        <rect
+           y="63.788677"
+           x="7.1815467"
+           height="18.520828"
+           width="392.71729"
+           id="rect146"
+           style="fill:#800080;stroke-width:0.26458332" />
+        <text
+           id="text150"
+           y="75.505936"
+           x="9.0714283"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="75.505936"
+             x="9.0714283"
+             id="tspan148"
+             sodipodi:role="line">Name, Time Posted, Title, Flair, Sub</tspan></text>
+        <rect
+           y="144.67557"
+           x="7.1815467"
+           height="17.00893"
+           width="392.33929"
+           id="rect152"
+           style="fill:#c8c4b7;stroke-width:0.26458332" />
+        <rect
+           y="64.166649"
+           x="376.46429"
+           height="97.51786"
+           width="23.434547"
+           id="rect154"
+           style="fill:#800000;stroke-width:0.26458332" />
+        <text
+           transform="matrix(0.00675653,0.84880682,-1.1780856,0.00486807,0,0)"
+           id="text158"
+           y="-331.84607"
+           x="79.268013"
+           style="font-style:normal;font-weight:normal;font-size:7.95364904px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19884123"
+           xml:space="preserve"><tspan
+             style="fill:#ffffff;stroke-width:0.19884123"
+             y="-331.84607"
+             x="79.268013"
+             id="tspan156"
+             sodipodi:role="line">Up/down, comments,</tspan><tspan
+             id="tspan160"
+             style="fill:#ffffff;stroke-width:0.19884123"
+             y="-321.90402"
+             x="79.268013"
+             sodipodi:role="line">...(share, hide, report, save)</tspan></text>
+        <text
+           id="text164"
+           y="117.4613"
+           x="18.520834"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="117.4613"
+             x="18.520834"
+             id="tspan162"
+             sodipodi:role="line">Content: Image, text, link, video</tspan></text>
+        <text
+           id="text168"
+           y="156.39284"
+           x="27.214285"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             id="tspan170"
+             style="stroke-width:0.26458332"
+             y="156.39284"
+             x="27.214285"
+             sodipodi:role="line">Default View </tspan></text>
+        <rect
+           y="145.80951"
+           x="99.407738"
+           height="12.095239"
+           width="3.7797618"
+           id="rect174"
+           style="fill:#000000;stroke-width:0.26458332" />
+        <rect
+           transform="rotate(37.184707)"
+           ry="0"
+           y="53.80003"
+           x="167.31007"
+           height="10.583333"
+           width="3.0238097"
+           id="rect176"
+           style="fill:#000000;stroke-width:0.26458332" />
+        <rect
+           inkscape:transform-center-y="40.443454"
+           inkscape:transform-center-x="-13.229167"
+           transform="matrix(-0.79669127,0.60438649,0.60438649,0.79669127,0,0)"
+           ry="0"
+           y="176.24585"
+           x="5.904211"
+           height="10.583333"
+           width="3.0238097"
+           id="rect176-3"
+           style="fill:#000000;stroke-width:0.26458332" />
+      </g>
+    </g>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke-width:0.26458332"
+       id="rect1196"
+       width="508.37796"
+       height="72.571434"
+       x="1.8249597e-08"
+       y="35.062481" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke-width:0.26458332"
+       id="rect1198"
+       width="508.37796"
+       height="35.529762"
+       x="1.8249597e-08"
+       y="107.63391" />
+    <path
+       style="fill:#eeffaa;fill-opacity:1;stroke-width:0.20435259"
+       id="path1200"
+       sodipodi:type="arc"
+       sodipodi:cx="64.066963"
+       sodipodi:cy="112.54761"
+       sodipodi:rx="19.087795"
+       sodipodi:ry="20.032736"
+       sodipodi:start="0"
+       sodipodi:end="5.9803009"
+       sodipodi:open="true"
+       d="M 83.154758,112.54761 A 19.087795,20.032736 0 0 1 65.510931,132.52294 19.087795,20.032736 0 0 1 45.197637,115.56983 19.087795,20.032736 0 0 1 59.768113,93.029529 19.087795,20.032736 0 0 1 82.285884,106.57235" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="54.428574"
+       y="110.27974"
+       id="text1204"><tspan
+         sodipodi:role="line"
+         x="54.428574"
+         y="110.27974"
+         style="stroke-width:0.26458332"
+         id="tspan1208">Sub</tspan><tspan
+         sodipodi:role="line"
+         x="54.428574"
+         y="123.5089"
+         style="stroke-width:0.26458332"
+         id="tspan1214">Pic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="87.690468"
+       y="118.21724"
+       id="text1218"><tspan
+         sodipodi:role="line"
+         id="tspan1216"
+         x="87.690468"
+         y="118.21724"
+         style="stroke-width:0.26458332">Sub name, Tag, Sub or Unsub</tspan></text>
+    <rect
+       style="fill:#552200;fill-opacity:1;stroke-width:0.36986965"
+       id="rect1220"
+       width="330.72916"
+       height="10.583333"
+       x="75.973213"
+       y="132.58034" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="75.595238"
+       y="141.27379"
+       id="text1224"><tspan
+         sodipodi:role="line"
+         id="tspan1222"
+         x="75.595238"
+         y="141.27379"
+         style="fill:#ffffff;stroke-width:0.26458332">Mercury/Venus Links, Wiki Links (Editable)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="416.15173"
+       y="157.14879"
+       id="text1234"><tspan
+         sodipodi:role="line"
+         id="tspan1232"
+         x="416.15173"
+         y="157.14879"
+         style="stroke-width:0.26458332">Sub Information</tspan><tspan
+         sodipodi:role="line"
+         x="416.15173"
+         y="170.37796"
+         style="stroke-width:0.26458332"
+         id="tspan1236">User numbers,</tspan><tspan
+         sodipodi:role="line"
+         x="416.15173"
+         y="183.60712"
+         style="stroke-width:0.26458332"
+         id="tspan1238">Date created, etc</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332"
+       id="rect1242"
+       width="95.627953"
+       height="67.657745"
+       x="412.37195"
+       y="195.3244" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="419.17557"
+       y="205.52974"
+       id="text1246"><tspan
+         sodipodi:role="line"
+         id="tspan1244"
+         x="419.17557"
+         y="205.52974"
+         style="stroke-width:0.26458332">Side Bar</tspan><tspan
+         sodipodi:role="line"
+         x="419.17557"
+         y="218.75891"
+         style="stroke-width:0.26458332"
+         id="tspan1248">Editable/</tspan><tspan
+         sodipodi:role="line"
+         x="419.17557"
+         y="231.98807"
+         style="stroke-width:0.26458332"
+         id="tspan1256">Family section</tspan><tspan
+         sodipodi:role="line"
+         x="419.17557"
+         y="245.21724"
+         style="stroke-width:0.26458332"
+         id="tspan1258">Including</tspan><tspan
+         sodipodi:role="line"
+         x="419.17557"
+         y="258.44641"
+         style="stroke-width:0.26458332"
+         id="tspan1260">Automatically</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="85.800591"
+       y="69.458313"
+       id="text1252"><tspan
+         sodipodi:role="line"
+         id="tspan1250"
+         x="85.800591"
+         y="69.458313"
+         style="stroke-width:0.26458332">Banner</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke-width:0.26458332"
+       id="rect1262"
+       width="13.607142"
+       height="13.229158"
+       x="1.8249597e-08"
+       y="129.93451" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.3470726px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.08367681;"
+       x="0.46497992"
+       y="118.42653"
+       id="text1266"
+       transform="scale(0.88740413,1.1268823)"><tspan
+         sodipodi:role="line"
+         id="tspan1264"
+         x="0.46497992"
+         y="118.42653"
+         style="stroke-width:0.08367681;fill:#ffffff;">Click for </tspan><tspan
+         sodipodi:role="line"
+         x="0.46497992"
+         y="122.61037"
+         style="stroke-width:0.08367681;fill:#ffffff;"
+         id="tspan1268">channel </tspan><tspan
+         sodipodi:role="line"
+         x="0.46497992"
+         y="126.79421"
+         style="stroke-width:0.08367681;fill:#ffffff;"
+         id="tspan1270">side bar</tspan></text>
+    <rect
+       style="fill:#008080;fill-opacity:1;stroke-width:0.26458332"
+       id="rect1375"
+       width="388.9375"
+       height="23.056549"
+       x="13.985119"
+       y="152.61307" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="31.75"
+       y="164.33034"
+       id="text1379"><tspan
+         sodipodi:role="line"
+         id="tspan1377"
+         x="31.75"
+         y="164.33034"
+         style="stroke-width:0.26458332">Create Post</tspan></text>
+  </g>
+</svg>
