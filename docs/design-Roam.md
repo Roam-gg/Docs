@@ -115,6 +115,13 @@ All message type inherit these fields, other message types are: [Posts](design-V
 |-------|-------------|------|
 | id | The id of this message | URN |
 | author | The [ego](#egos) that created this message (null if ego/user was deleted) | ?[Ego](#egos) |
+| channel | Channel the message was sent in |  |
+| attachment | Any [Attached](#Attachment) files |  |
+| timestamp | Time a message was sent | ISO8601 timestamp |
+| edit_timestamp | Time a message was edited | ISO8601 timestamp |
+| history | The history of all edits made to a post | ?message |
+| embeds | Embedded content | array of embed objects |
+| nonce | Validating a message has been sent | integer or string |
 
 ## Users
 
@@ -188,7 +195,7 @@ Only Egos are accessible through the API except for the requesting user. They ma
 | Flag | Value (2<sup>x</sup>) |
 |------|-----------------------|
 | None | 0 |
-| Emporers | 1 |
+| Emperors | 1 |
 | Roam Employee | 2 |
 | Roam Partner | 3 |
 | System | 4 |
