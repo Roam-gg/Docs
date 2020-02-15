@@ -23,6 +23,7 @@ Theater's can be grouped together in families, theater's in the same family can 
 | theaters | The [theaters](#theater) this board has | List of [Theaters](#theater) |
 | roles | The [roles](#roles) this board has | List of [Roles](#roles) |
 | channels | The [news channels](design-Mercury.md#news-channel) for the family | List of [News Channels](design-Mercury.md#news-channel) |
+| emojis | This Theater's custom emojis | List of [Emojis](#emoji) |
 
 ## Theater
 
